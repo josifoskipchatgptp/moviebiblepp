@@ -1,0 +1,33 @@
+object Form6: TForm6
+  Left = 512
+  Height = 246
+  Top = 275
+  Width = 322
+  BorderStyle = bsDialog
+  ClientHeight = 246
+  ClientWidth = 322
+  Color = clWhite
+  OnCreate = FormCreate
+  Position = poScreenCenter
+  LCLVersion = '0.9.30.2'
+  object Memo1: TMemo
+    Left = 16
+    Height = 209
+    Top = 15
+    Width = 289
+    BorderStyle = bsNone
+    Color = clWhite
+    Font.Color = clBlack
+    Font.Height = -19
+    ParentFont = False
+    ReadOnly = True
+    TabOrder = 0
+  end
+  object Label1: TLabel
+    Left = 270
+    Height = 1
+    Top = 242
+    Width = 1
+    ParentColor = False
+  end
+end

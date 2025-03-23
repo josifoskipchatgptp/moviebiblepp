@@ -1,0 +1,118 @@
+object Form1: TForm1
+  Left = 302
+  Height = 401
+  Top = 199
+  Width = 676
+  ClientHeight = 401
+  ClientWidth = 676
+  Color = clWhite
+  Font.Name = 'DejaVu Sans Mono'
+  OnClose = FormClose
+  OnCreate = FormCreate
+  OnKeyDown = FormKeyDown
+  OnResize = FormResize
+  OnWindowStateChange = FormResize
+  Position = poDefault
+  LCLVersion = '1.6.0.4'
+  Visible = True
+  object Button1: TButton
+    Left = 616
+    Height = 25
+    Top = 8
+    Width = 43
+    OnClick = Button1Click
+    OnKeyDown = Button1KeyDown
+    TabOrder = 1
+  end
+  object Label1: TLabel
+    Left = 584
+    Height = 27
+    Top = 8
+    Width = 22
+    Caption = '♥'
+    Font.Height = -24
+    ParentColor = False
+    ParentFont = False
+    Visible = False
+  end
+  object Memo1: TMemo
+    Left = 25
+    Height = 304
+    Top = 50
+    Width = 624
+    Align = alCustom
+    BorderStyle = bsNone
+    Color = clWhite
+    Font.Color = clBlack
+    Font.Name = 'DejaVu Sans Mono'
+    OnEnter = Memo1Enter
+    ParentFont = False
+    ReadOnly = True
+    TabOrder = 0
+  end
+  object Button2: TButton
+    Left = 552
+    Height = 25
+    Top = 368
+    Width = 53
+    Caption = '<'
+    OnClick = Button2Click
+    OnKeyDown = Button2KeyDown
+    TabOrder = 2
+    Visible = False
+  end
+  object Button3: TButton
+    Left = 606
+    Height = 25
+    Top = 368
+    Width = 53
+    Caption = '>'
+    OnClick = Button3Click
+    OnKeyDown = Button3KeyDown
+    TabOrder = 3
+    Visible = False
+  end
+  object Button4: TButton
+    Left = 497
+    Height = 12
+    Top = 368
+    Width = 53
+    Caption = '^'
+    OnClick = Button4Click
+    OnKeyDown = Button4KeyDown
+    TabOrder = 4
+    Visible = False
+  end
+  object Button5: TButton
+    Left = 497
+    Height = 12
+    Top = 381
+    Width = 53
+    Caption = 'v'
+    OnClick = Button5Click
+    OnKeyDown = Button5KeyDown
+    TabOrder = 5
+    Visible = False
+  end
+  object Label2: TLabel
+    Left = 25
+    Height = 38
+    Top = 8
+    Width = 103
+    Caption = 'Label2'
+    Font.Height = -34
+    ParentColor = False
+    ParentFont = False
+    Visible = False
+  end
+  object Timer1: TTimer
+    Enabled = False
+    OnTimer = Timer1Timer
+    left = 296
+  end
+  object mbfbh_TrayIcon1: TTrayIcon
+    Hint = 'Movie Bible'
+    OnClick = mbfbh_TrayIcon1Click
+    left = 232
+  end
+end

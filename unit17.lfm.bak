@@ -1,0 +1,21 @@
+object Form17: TForm17
+  Left = 364
+  Height = 32
+  Top = 284
+  Width = 226
+  BorderStyle = bsNone
+  Caption = 'Form17'
+  ClientHeight = 32
+  ClientWidth = 226
+  OnCreate = FormCreate
+  Position = poScreenCenter
+  LCLVersion = '1.6.0.4'
+  object Edit1: TEdit
+    Left = 16
+    Height = 27
+    Top = 0
+    Width = 186
+    OnKeyDown = Edit1KeyDown
+    TabOrder = 0
+  end
+end

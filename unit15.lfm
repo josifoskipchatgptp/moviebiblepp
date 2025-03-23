@@ -1,0 +1,52 @@
+object Form15: TForm15
+  Left = 358
+  Height = 268
+  Top = 221
+  Width = 303
+  Caption = 'Bookmarks'
+  ClientHeight = 268
+  ClientWidth = 303
+  OnCreate = FormCreate
+  Position = poScreenCenter
+  LCLVersion = '1.0.14.0'
+  object ListBox1: TListBox
+    Left = 25
+    Height = 182
+    Top = 56
+    Width = 250
+    Color = 1152247
+    ItemHeight = 0
+    OnClick = ListBox1Click
+    ScrollWidth = 248
+    TabOrder = 0
+    TopIndex = -1
+  end
+  object Button1: TButton
+    Left = 25
+    Height = 25
+    Top = 24
+    Width = 75
+    Caption = 'Add+'
+    OnClick = Button1Click
+    TabOrder = 1
+  end
+  object Button2: TButton
+    Left = 112
+    Height = 25
+    Top = 24
+    Width = 75
+    Caption = 'Delete'
+    OnClick = Button2Click
+    TabOrder = 2
+  end
+  object Button3: TButton
+    Left = 200
+    Height = 25
+    Top = 24
+    Width = 75
+    Caption = 'Clear'
+    Color = clPurple
+    OnClick = Button3Click
+    TabOrder = 3
+  end
+end

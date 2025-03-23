@@ -1,0 +1,68 @@
+object Form10: TForm10
+  Left = 526
+  Height = 339
+  Top = 251
+  Width = 397
+  ClientHeight = 339
+  ClientWidth = 397
+  OnClose = FormClose
+  OnResize = FormResize
+  LCLVersion = '1.0.14.0'
+  object Memo1: TMemo
+    Left = 20
+    Height = 288
+    Top = 24
+    Width = 356
+    BorderStyle = bsNone
+    Color = clWhite
+    Font.Color = clRed
+    Font.Height = -19
+    ParentFont = False
+    ReadOnly = True
+    TabOrder = 0
+  end
+  object CheckBox1: TCheckBox
+    Left = 368
+    Height = 24
+    Hint = 'next'
+    Top = 0
+    Width = 24
+    OnChange = CheckBox1Change
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 1
+  end
+  object CheckBox2: TCheckBox
+    Left = 8
+    Height = 24
+    Hint = 'previous'
+    Top = 312
+    Width = 24
+    OnChange = CheckBox2Change
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 2
+  end
+  object CheckBox3: TCheckBox
+    Left = 320
+    Height = 24
+    Hint = 'refresh'
+    Top = 0
+    Width = 24
+    OnChange = CheckBox3Change
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 3
+  end
+  object CheckBox4: TCheckBox
+    Left = 272
+    Height = 24
+    Hint = 'clear'
+    Top = 0
+    Width = 24
+    OnChange = CheckBox4Change
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 4
+  end
+end

@@ -1,0 +1,49 @@
+object Form14: TForm14
+  Left = 306
+  Height = 439
+  Top = 198
+  Width = 630
+  ClientHeight = 439
+  ClientWidth = 630
+  Color = clWhite
+  Position = poScreenCenter
+  LCLVersion = '1.0.14.0'
+  object Memo1: TMemo
+    Left = 29
+    Height = 159
+    Top = 24
+    Width = 571
+    Color = clWhite
+    Font.Height = -17
+    Lines.Strings = (
+      ''
+      ''
+      '    josifoski@gmail.com'
+      '    skrill.com'
+      '    paypal.com'
+    )
+    ParentFont = False
+    ReadOnly = True
+    TabOrder = 0
+  end
+  object Memo2: TMemo
+    Left = 29
+    Height = 204
+    Top = 204
+    Width = 571
+    Color = clWhite
+    Font.Height = -18
+    Lines.Strings = (
+      'Information about every donation will be updated on'
+      'http://some-traveller-somewhere.blogspot.com'
+      ''
+      'If you decide to  donate and want to stay anonimous'
+      'please mention that.'
+      ''
+      'Also if you decide to donate may write few sentences which will be shown next to your name.'
+    )
+    ParentFont = False
+    ReadOnly = True
+    TabOrder = 1
+  end
+end

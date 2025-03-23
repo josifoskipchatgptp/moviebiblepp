@@ -1,0 +1,98 @@
+object Form7: TForm7
+  Left = 337
+  Height = 351
+  Top = 277
+  Width = 659
+  BorderStyle = bsDialog
+  Caption = 'verse finder'
+  ClientHeight = 351
+  ClientWidth = 659
+  Color = clSkyBlue
+  OnClose = FormClose
+  OnCreate = FormCreate
+  LCLVersion = '1.0.14.0'
+  object Edit1: TEdit
+    Left = 22
+    Height = 29
+    Top = 22
+    Width = 530
+    Color = clSilver
+    Font.Height = -16
+    OnKeyDown = Edit1KeyDown
+    ParentFont = False
+    TabOrder = 0
+  end
+  object ListBox1: TListBox
+    Left = 22
+    Height = 251
+    Top = 64
+    Width = 200
+    Color = clRed
+    ItemHeight = 0
+    OnSelectionChange = ListBox1SelectionChange
+    ScrollWidth = 198
+    TabOrder = 1
+    TopIndex = -1
+  end
+  object Button1: TButton
+    Left = 591
+    Height = 29
+    Top = 22
+    Width = 49
+    Color = clSilver
+    OnClick = Button1Click
+    TabOrder = 2
+  end
+  object Memo1: TMemo
+    Left = 232
+    Height = 251
+    Top = 64
+    Width = 200
+    Color = clSilver
+    Font.Height = -16
+    ParentFont = False
+    ReadOnly = True
+    ScrollBars = ssVertical
+    TabOrder = 3
+  end
+  object Memo2: TMemo
+    Left = 440
+    Height = 251
+    Top = 64
+    Width = 200
+    Color = clSilver
+    Font.Height = -16
+    ParentFont = False
+    ReadOnly = True
+    ScrollBars = ssVertical
+    TabOrder = 4
+  end
+  object Button2: TButton
+    Left = 22
+    Height = 25
+    Top = 320
+    Width = 90
+    Caption = 'goto_verse'
+    OnClick = Button2Click
+    TabOrder = 5
+  end
+  object CheckBox1: TCheckBox
+    Left = 136
+    Height = 24
+    Top = 321
+    Width = 223
+    Caption = 'Search in all Bibles in Manyviews'
+    OnChange = CheckBox1Change
+    TabOrder = 6
+  end
+  object Button3: TButton
+    Left = 565
+    Height = 25
+    Top = 321
+    Width = 75
+    Caption = 'To: txt'
+    Color = clWhite
+    OnClick = Button3Click
+    TabOrder = 7
+  end
+end

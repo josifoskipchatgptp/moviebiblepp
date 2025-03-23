@@ -1,0 +1,72 @@
+ENG_Bible_TS2009.txt
+ENG_Bible_NET.txt
+ENG_Bible_WEB.txt
+ENG_Bible_NKJV.txt
+ENG_Bible_KJV.txt
+ENG_Bible_ESV.txt
+MKD_JW.txt
+MKD_Bible_konstantinov.txt
+MKD_Bible_revidirano.txt
+SRP_Bible_DK.txt
+# Afrykaans_Bible_1933_1953.txt
+# ALB_Bible_Albanian.txt
+# CN_Bible_ChineseUnVersion.txt
+# CN_Bible_KJV_tr.txt
+CN_Bible_KJV.txt
+# CZ_Bible_BKR.txt
+# DE_Bible_Darby1905.txt
+# DE_Bible_ELB1871.txt
+# DE_Bible_Luther1545.txt
+# DE_Bible_Luther1912.txt
+# DE_Bible_SchlachterBibel1951.txt
+# DE_Bible_textbibel_1911.txt
+# ENG_Bible_AKJV.txt
+# ENG_Bible_ASV1901.txt
+# ENG_Bible_AuKJVPCamEd.txt
+# ENG_Bible_BBE.txt
+# ENG_Bible_Bishops1568.txt
+# ENG_Bible_Coverdale.txt
+# ENG_Bible_CPDV.txt
+# ENG_Bible_Darby.txt
+# ENG_Bible_DRC.txt
+# ENG_Bible_EBR.txt
+# ENG_Bible_ERV.txt
+# ENG_Bible_LEB.txt
+# ENG_Bible_NLT.txt
+# ENG_Bible_SLT.txt
+# ENG_Bible_Tyndale1526.txt
+# ENG_Bible_UKJV.txt
+# ENG_Bible_VW.txt
+# ENG_Bible_Webster.txt
+# ENG_Bible_YLT.txt
+# SPA_Bible_RVES.txt
+# SPA_Bible_RVG10.txt
+# SPA_Bible_SSEE.txt
+# ET_Bible_Amharic_rev.txt
+# FI_Bible_Kirkkoaamattu_1776.txt
+# FI_Bible_Kirkkoaamattu_33_38.txt
+# FR_Bible_Creole.txt
+# FR_Bible_Darby.txt
+# FR_Bible_LouisSegond_1910.txt
+# FR_Bible_Martin.txt
+# GR_Bible_VAMVAS.txt
+# HR_Bible_croatian.txt
+# HU_Bible_VizKar.txt
+# ID_Bible_ISH.txt
+# ID_Bible_ITB.txt
+# ID_Bible_ITL.txt
+# IL_Bible_ModernHebrew.txt
+# IT_Bible_IDB1649.txt
+# IT_Bible_IRB1927.txt
+# LAT_Bible_Vulgate.txt
+# MG_Bible_Malagasy1865.txt
+# NL_Bible_SV.txt
+# NZ_Bible_Maori.txt
+# PH_Bible_CebBugna.txt
+# PH_Bible_Tagalog1905.txt
+# PL_Bible_Gdanska1881.txt
+# PT_Bible_ACF2007.txt
+# PT_Bible_ARM1967.txt
+# PT_Bible_JFARCPT.txt
+# RO_Bible_Cornilescu.txt
+# RU_Bible_RST.txt

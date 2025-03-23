@@ -1,0 +1,40 @@
+object Form9: TForm9
+  Left = 542
+  Height = 709
+  Top = 26
+  Width = 726
+  Caption = 'Chapter'
+  ClientHeight = 709
+  ClientWidth = 726
+  Color = clYellow
+  OnClose = FormClose
+  OnCreate = FormCreate
+  OnResize = FormResize
+  Position = poDefault
+  LCLVersion = '1.6.0.4'
+  object Memo1: TMemo
+    Left = 10
+    Height = 432
+    Top = 10
+    Width = 646
+    BorderStyle = bsNone
+    Color = clYellow
+    Font.Height = -17
+    OnKeyDown = Memo1KeyDown
+    ParentFont = False
+    ReadOnly = True
+    ScrollBars = ssVertical
+    TabOrder = 0
+  end
+  object CheckBox1: TCheckBox
+    Left = 10
+    Height = 17
+    Top = 451
+    Width = 100
+    Caption = 'Empty rows'
+    Checked = True
+    OnChange = CheckBox1Change
+    State = cbChecked
+    TabOrder = 1
+  end
+end

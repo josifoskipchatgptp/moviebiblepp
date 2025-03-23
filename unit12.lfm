@@ -1,0 +1,59 @@
+object Form12: TForm12
+  Left = 396
+  Height = 547
+  Top = 156
+  Width = 541
+  Caption = 'View verse in many translation setup'
+  ClientHeight = 547
+  ClientWidth = 541
+  LCLVersion = '1.0.14.0'
+  object Memo1: TMemo
+    Left = 35
+    Height = 145
+    Top = 17
+    Width = 477
+    Font.Height = -13
+    Lines.Strings = (
+      'put/remove # before Bible translation name'
+      'if you (don''t) want to be included in showing verse'
+      '# SomeBibleName.txt means that Bible will be ignored'
+      'also with cut/paste change order of showing'
+      'be carefull, operation is case sensitive if you'
+      'change name of Bible, better don''t do it'
+      'can use -> <- (right, left) keys for reading'
+      'here autoreading is off, also no crippling text'
+    )
+    ParentFont = False
+    ReadOnly = True
+    ScrollBars = ssVertical
+    TabOrder = 0
+  end
+  object Memo2: TMemo
+    Left = 35
+    Height = 334
+    Top = 168
+    Width = 477
+    ScrollBars = ssVertical
+    TabOrder = 1
+  end
+  object Button1: TButton
+    Left = 437
+    Height = 25
+    Top = 512
+    Width = 75
+    Caption = 'Save'
+    OnClick = Button1Click
+    TabOrder = 2
+  end
+  object CheckBox1: TCheckBox
+    Left = 35
+    Height = 24
+    Top = 513
+    Width = 136
+    Caption = 'Show Bible names'
+    Checked = True
+    OnChange = CheckBox1Change
+    State = cbChecked
+    TabOrder = 3
+  end
+end

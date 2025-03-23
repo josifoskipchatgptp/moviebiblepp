@@ -1,0 +1,20 @@
+Do not change this file manually!
+normal
+1541
+MKD_Bible_konstantinov.txt
+Afrykaans_Bible_1933_1953.txt
+English.txt
+19
+11
+single
+16711680
+12
+65535
+0
+800
+457
+F
+F
+2
+mbmanyF
+ 

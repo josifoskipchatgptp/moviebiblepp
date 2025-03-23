@@ -1,0 +1,25 @@
+object Form16: TForm16
+  Left = 275
+  Height = 521
+  Top = 148
+  Width = 674
+  Caption = 'write read chapters'
+  ClientHeight = 521
+  ClientWidth = 674
+  LCLVersion = '1.0.14.0'
+  object Memo1: TMemo
+    Left = 23
+    Height = 463
+    Top = 19
+    Width = 629
+    TabOrder = 0
+  end
+  object Button1: TButton
+    Left = 577
+    Height = 25
+    Top = 488
+    Width = 75
+    Caption = 'OK'
+    TabOrder = 1
+  end
+end
